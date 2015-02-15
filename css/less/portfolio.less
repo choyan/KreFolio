@@ -1,0 +1,82 @@
+/* ========================================================================
+   Component: Portfolio
+ ========================================================================== */
+.portfolio {
+    .line {
+        margin: 15px auto 45px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+    p {
+        color: #6b6b6b;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .filters {
+        color: #9e9e9e;
+        li {
+            display: inline;
+            a {
+                margin: 0 5px;
+                color: #9e9e9e;
+            }
+        }
+        .active {
+            color: @color;
+            text-decoration: none;
+        }
+    }
+
+    .portfolio-item {
+        width: 25%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        a {
+            position: relative;
+            display: block;
+            color: #fff;
+            .portfolio-overlay {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                display: block;
+                z-index: 4;
+                opacity: 0;
+                transition: all 0.3s ease-in-out;
+                padding: 125px 20px;
+            }
+            img {
+                width: 100%;
+                transition: all 1.2s linear;
+            }
+            &:hover > .portfolio-overlay {
+                opacity: 1;
+            }
+            &:hover > img {
+                transform: scale(1.2);
+            }
+        }
+    }
+    >.button {
+        border-color: #333;
+        font-weight: normal;
+        color: #333;
+        position: relative;
+        z-index: 10;
+        i {
+            font-size: 22px;
+        }
+    }
+}
+.filters li a:after {
+    content: "/";
+    margin-left: 10px;
+    color: #9e9e9e;
+}
+.filters li:last-child > a:after {
+  content: "";
+}

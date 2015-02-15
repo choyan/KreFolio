@@ -1,0 +1,29 @@
+/* ========================================================================
+   Component: Twitter
+ ========================================================================== */
+.twitter {
+    background: url("../img/twitter-bg.jpg") no-repeat center top fixed;
+    background-size: cover;
+    color: #fff;
+}
+.twitter .overlay {
+    background: rgba(27, 28, 29, 0.9);
+}
+.twitter .icon {
+    font-size: 120px;
+    i {
+        transition: 1.2s;
+        cursor: pointer;
+        &:hover {
+            -webkit-transform:rotate(360deg) scale(1.2);
+            -moz-transform:rotate(360deg) scale(1.2);
+            -o-transform:rotate(360deg) scale(1.2);
+            transform:rotate(360deg) scale(1.2);
+            color: #00aced;
+        }
+    }
+}
+.twitter .tweet-text {
+    font-size: 16px;
+    line-height: 1.5em;
+}

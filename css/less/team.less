@@ -1,0 +1,55 @@
+/* ========================================================================
+   Component: Our Team
+ ========================================================================== */
+.our-team {
+    background: #eee;
+    .team-member {
+        border: 1px solid #ea685b;
+        width: 220px;
+        height: 300px;
+        overflow: hidden;
+        &:hover > .team-overlay {
+            margin-top: -297px;
+            transition: all .85s;
+        }
+    }
+    img {
+        width: 100%;
+    }
+
+
+    .team-overlay {
+        margin-top: 0px;
+        width: 220px;
+        color: #fff;
+        margin-left: -2px;
+        position: relative;
+        .info {
+            height: 240px;
+            padding: 100px 20px 20px 20px;
+            background:  rgba(231,76,60,.9);
+        }
+        .learn-more {
+            height: 60px;
+            line-height: 60px;
+            width: 100%;
+            text-align: center;
+            background: #c1392b;
+            position: relative;
+            cursor: pointer;
+        }
+    }
+    .description {
+        padding: 40px 0;
+        h3 {
+            text-transform: uppercase;
+        }
+        .about {
+            font-size: 14px;
+            color: #555;
+        }
+        .member-skill {
+            display: inline-block;
+        }
+    }
+}

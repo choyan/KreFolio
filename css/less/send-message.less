@@ -1,0 +1,83 @@
+/* ========================================================================
+   Component: Send Message
+ ========================================================================== */
+
+.send-message {
+    padding: 20px;
+    .send-icon {
+        height: 80px;
+        width: 80px;
+        margin: 0 auto;
+        background: #e74c3c;
+        border-radius: 50%;
+        line-height: 60px;
+        margin-top: -60px;
+        font-size: 20px;
+        position: relative;
+    }
+    p {
+        font-size: 30px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+    .modal-lg {
+        width: 700px;
+    }
+}
+.modal {
+    .modal-content {
+        box-shadow: none;
+        border-radius: 0;
+        border: 0;
+        position: relative;
+    }
+    .close {
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #333;
+        opacity: 1;
+        height: 40px;
+        width: 40px;
+        color: #FFF;
+        font-size: 28px;
+        line-height: 45px;
+        outline: none;
+        z-index: 10;
+        span {
+            outline: none;
+        }
+    }
+    .modal-body {
+        padding: 40px 60px;
+    }
+    .member-info {
+        padding: 0;
+    }
+    input {
+        height: 50px;
+    }
+    input, textarea {
+        padding: 10px 20px;
+        border-radius: 0;
+        font-size: 18px;
+        &:focus {
+            border-color: @color;
+            box-shadow: none;
+        }
+    }
+    textarea {
+        resize: none;
+    }
+    .button {
+        width: 100%;
+        border-radius: 0;
+        padding: 15px 60px;
+    }
+}
+.form-control::-webkit-input-placeholder {
+    color: #DBDBDB;
+    font-style: italic;
+}

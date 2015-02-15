@@ -1,0 +1,38 @@
+/* ========================================================================
+   Component: Testimonail
+ ========================================================================== */
+.testimonial {
+    background: url(../img/testimonial-bg.png);
+}
+.testimonial-carousel .item {
+    padding: 25px 40px 40px;
+    background: rgba(34, 34, 34, 0.8);
+    border-radius: 4px;
+    p {
+        font-style: italic;
+        font-size: 24px;
+    }
+    .client img, .client ul {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .client img {
+        height: 50px;
+        width: 50px;
+        max-width: 100%;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+    }
+    .client-info {
+        margin-left: 10px;
+        li {
+            text-align: left;
+        }
+        li:first-child {
+            font-size: 18px
+        }
+    }
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: @color;
+}
