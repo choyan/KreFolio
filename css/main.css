@@ -1,3 +1,54 @@
+/* --------------------------------------
+=========================================
+KreFolio - Startup Agency Landing Page Template
+Version: 1.0 (Initial Release)
+Designed By: E. A. Siblu (www.facebook.com/EASiblu)
+Developed By: Zahidul Hossain (http://twitter.com/ch0yan)
+=========================================
+
+1. GLOBAL STYLES
+    1.1 GLOBAL
+
+    1.2 Helper Classes
+
+    1.3 Fullscreen Menu
+
+    1.4 Custom hover animation
+
+
+2. SECTION STYLES
+    2.1 SECTION: Header
+
+    2.2 SECTION: Call to action
+
+    2.3 SECTION: About Us
+
+    2.4 SECTION: Case Study
+
+    2.5 SECTION: Why Choose Us
+
+    2.6 SECTION: Our Skills
+
+    2.7 SECTION: Processes
+
+    2.8 SECTION: Our Team
+
+    2.9 SECTION: Testimonial
+
+    2.10 SECTION: Portfolio
+
+    2.11 SECTION: Promote
+
+    2.12 SECTION: We are Hiring
+
+    2.13 SECTION: Twitter
+
+    2.14 SECTION: Map
+
+    2.15 SECTION: Send Message
+
+    2.16 SECTION: Footer
+-----------------------------------------*/
 /* ========================================================================
   1.1 Component: GLOBAL
  ========================================================================== */
@@ -78,9 +129,8 @@ h5,
 h6 {
   margin: 0;
 }
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
+/* Browser Upgrade Prompt
+ ========================================================================== */
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -200,7 +250,7 @@ h6 {
   visibility: hidden;
 }
 /* ========================================================================
- 1.2 Component: Fullscreen menu
+ 1.3 Component: Fullscreen menu
  ========================================================================== */
 .top-animate {
   background: #fff !important;
@@ -694,8 +744,6 @@ header .logo-container {
   color: #fffeff;
 }
 .processes .overlay {
-  /*  background: url(../img/process-overlay.png) repeat;
-*/
   background: rgba(0, 8, 5, 0.85);
 }
 .processes .icon-container {
@@ -738,9 +786,6 @@ header .logo-container {
 }
 .processes .process-bar.right {
   border: 3px solid #e74c3c;
-  /*  height: 119px;
-  width: 119px;
-*/
 }
 .processes .lines {
   height: 55px;
