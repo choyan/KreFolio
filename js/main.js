@@ -108,7 +108,7 @@ $(document).ready(function () {
     Grab Last Tweet
    ========================================================================== */
   var config = {
-    "id": '526796576736301056',
+    "id": '', // input data-widget-id here
     "domId": 'tweets',
     "maxTweets": 1, // defines how many tweet to show
     "enableLinks": false,
