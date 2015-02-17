@@ -1,11 +1,12 @@
 # KreFolio v1
-Onepage, Responsive Bootstrap template
+Onepage, Responsive Bootstrap template. Have a look at [Demo](http://shapebootstrap.net/preview/?id=1394) hosted at [ShapeBootstrap](http://shapebootstrap.net/).
 
 ## Instructions
-    - Upload to a PHP server via ftp
+    - Customize as your need.
+    - Upload to a web server via ftp.
 
 ## Twitter setup
-    - Go to https://twitter.com/settings/widgets
+    - Go to [Twitter Widgets](https://twitter.com/settings/widgets)
     - Click on "Create new"
     - Enter your credentials there
     - Click on "Create Widget"
@@ -18,6 +19,4 @@ Onepage, Responsive Bootstrap template
 
 
 ## Contact me:
-    If you like my work and to want to work with me, pls contact.
-    twitter: ch0yan
-    email: choyan.009@gmail.com
+    If you like my work and to want to work with me, pls contact via [Twitter](https://twitter.com/ch0yan) or [Mail](choyan.009@gmail.com).
