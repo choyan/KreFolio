@@ -6,7 +6,8 @@ Onepage, Responsive Bootstrap template. Have a look at [Demo](http://shapebootst
     - Upload to a web server via ftp.
 
 ## Twitter setup
-    - Go to [Twitter Widgets](https://twitter.com/settings/widgets)
+Go to [Twitter Widgets](https://twitter.com/settings/widgets)
+
     - Click on "Create new"
     - Enter your credentials there
     - Click on "Create Widget"
@@ -19,4 +20,4 @@ Onepage, Responsive Bootstrap template. Have a look at [Demo](http://shapebootst
 
 
 ## Contact me:
-    If you like my work and to want to work with me, pls contact via [Twitter](https://twitter.com/ch0yan) or [Mail](choyan.009@gmail.com).
+If you like my work and to want to work with me, please contact via [Twitter](https://twitter.com/ch0yan) or [Mail](choyan.009@gmail.com).
