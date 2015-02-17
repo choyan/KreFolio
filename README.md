@@ -20,4 +20,4 @@ Go to [Twitter Widgets](https://twitter.com/settings/widgets)
 
 
 ## Contact me:
-If you like my work and to want to work with me, please contact via [Twitter](https://twitter.com/ch0yan) or [Mail](choyan.009@gmail.com).
+If you like my work and to want to work with me, please contact via [Twitter](https://twitter.com/ch0yan) or [Mail](mailto:choyan.009@gmail.com).
