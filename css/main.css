@@ -1,5 +1,5 @@
 /* ========================================================================
-   Component: GLOBAL
+  1.1 Component: GLOBAL
  ========================================================================== */
 html {
   font-size: 1em;
@@ -98,7 +98,7 @@ h6 {
   text-shadow: none;
 }
 /* ==========================================================================
-   Helper classes
+   1.2 Helper classes
    ========================================================================== */
 .main-bg {
   background: #e74c3c;
@@ -200,7 +200,7 @@ h6 {
   visibility: hidden;
 }
 /* ========================================================================
-   Component: Fullscreen menu
+ 1.2 Component: Fullscreen menu
  ========================================================================== */
 .top-animate {
   background: #fff !important;
@@ -294,7 +294,7 @@ h6 {
   margin-top: 60px;
 }
 /* ========================================================================
-   Hover animation by hover.css http://ianlunn.github.io/Hover/
+ 1.4 Hover animation by hover.css http://ianlunn.github.io/Hover/
  ========================================================================== */
 @-webkit-keyframes hvr-pulse {
   25% {
@@ -453,7 +453,7 @@ h6 {
   opacity: 1;
 }
 /* ========================================================================
-   Component: Header
+  2.1 Component: Header
  ========================================================================== */
 header {
   position: relative;
@@ -519,7 +519,7 @@ header .logo-container {
   z-index: 10;
 }
 /* ========================================================================
-   Component: Call To ACTION
+  2.2 Component: Call To ACTION
  ========================================================================== */
 .call-to-action {
   padding: 15px;
@@ -531,7 +531,7 @@ header .logo-container {
   margin: 20px;
 }
 /* ========================================================================
-   Component: About Us
+  2.3 Component: About Us
  ========================================================================== */
 .about-us {
   background: url("../img/about-us-bg.jpg") no-repeat center fixed;
@@ -587,7 +587,7 @@ header .logo-container {
   line-height: 18px;
 }
 /* ========================================================================
-   Component: Case Study
+  2.4 Component: Case Study
  ========================================================================== */
 .case-study .col-md-6 {
   padding: 0;
@@ -626,7 +626,7 @@ header .logo-container {
   font-weight: lighter;
 }
 /* ========================================================================
-   Component: Why choose us
+  2.5 Component: Why choose us
  ========================================================================== */
 .why-choose-us .icon {
   font-size: 35px;
@@ -662,7 +662,7 @@ header .logo-container {
   transition: all .85s;
 }
 /* ========================================================================
-   Component: Our Skills
+  2.6 Component: Our Skills
  ========================================================================== */
 .skill-bar li .wrapper {
   margin-bottom: 30px;
@@ -686,7 +686,7 @@ header .logo-container {
   height: 300px;
 }
 /* ========================================================================
-   Component: Processes
+  2.7 Component: Processes
  ========================================================================== */
 .processes {
   background: url("../img/process-bg.jpg") no-repeat center fixed;
@@ -751,7 +751,7 @@ header .logo-container {
   border-bottom: 3px solid #e74c3c;
 }
 /* ========================================================================
-   Component: Our Team
+  2.8 Component: Our Team
  ========================================================================== */
 .our-team {
   background: #eee;
@@ -804,7 +804,7 @@ header .logo-container {
   display: inline-block;
 }
 /* ========================================================================
-   Component: Testimonail
+  2.9 Component: Testimonail
  ========================================================================== */
 .testimonial {
   background: url(../img/testimonial-bg.png);
@@ -844,7 +844,7 @@ header .logo-container {
   background: #e74c3c;
 }
 /* ========================================================================
-   Component: Portfolio
+  2.10 Component: Portfolio
  ========================================================================== */
 .portfolio .line {
   margin: 15px auto 45px;
@@ -923,7 +923,7 @@ header .logo-container {
   content: "";
 }
 /* ========================================================================
-   Component: Promote
+  2.11 Component: Promote
  ========================================================================== */
 .promote {
   padding: 25px;
@@ -941,7 +941,7 @@ header .logo-container {
   background: #c0392b;
 }
 /* ========================================================================
-   Component: We are hiring
+  2.12 Component: We are hiring
  ========================================================================== */
 .we-are-hiring {
   background: #f4f4f4;
@@ -973,7 +973,7 @@ header .logo-container {
   font-size: 80px;
 }
 /* ========================================================================
-   Component: Twitter
+  2.13 Component: Twitter
  ========================================================================== */
 .twitter {
   background: url("../img/twitter-bg.jpg") no-repeat center top fixed;
@@ -1002,14 +1002,14 @@ header .logo-container {
   line-height: 1.5em;
 }
 /* ========================================================================
-   Component: Map
+  2.14 Component: Map
  ========================================================================== */
 #map-container {
   height: 500px;
   width: 100%;
 }
 /* ========================================================================
-   Component: Send Message
+  2.15 Component: Send Message
  ========================================================================== */
 .send-message {
   padding: 20px;
@@ -1091,7 +1091,7 @@ header .logo-container {
   font-style: italic;
 }
 /* ========================================================================
-   Component: Footer
+  2.16 Component: Footer
  ========================================================================== */
 .footer p {
   color: #bababa;
