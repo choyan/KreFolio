@@ -15,7 +15,7 @@ $(document).ready(function () {
   /* ========================================================================
      On click menu item animate to the section
    ========================================================================== */
-  $('.mobilenav li').on('click', function() {
+  $(".mobilenav li, .back-to-top").on('click', function() {
     var target = $(this).data('rel');
     var $target = $(target);
     $('html, body').stop().animate({
@@ -108,7 +108,7 @@ $(document).ready(function () {
     Grab Last Tweet
    ========================================================================== */
   var config = {
-    "id": '', // input data-widget-id here
+    "id": '526796576736301056',
     "domId": 'tweets',
     "maxTweets": 1, // defines how many tweet to show
     "enableLinks": false,

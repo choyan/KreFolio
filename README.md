@@ -18,6 +18,8 @@ Go to [Twitter Widgets](https://twitter.com/settings/widgets)
     - Go to "Grab last tweet section"
     - on the "id" property input your "data-widget-id" inside ''
 
+## Color variation usage
+All color variation has different html and different css file. So, just rename your desired color variation to index.html and your are good to go.
 
 ## Contact me:
 If you like my work and to want to work with me, please contact via [Twitter](https://twitter.com/ch0yan) or [Mail](mailto:choyan.009@gmail.com).

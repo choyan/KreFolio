@@ -131,12 +131,12 @@ h6 {
   padding: 0.2em 0;
 }
 ::-moz-selection {
-  background: #e74c3c;
+  background: #00ab66;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #e74c3c;
+  background: #00ab66;
   color: #fff;
   text-shadow: none;
 }
@@ -156,10 +156,10 @@ h6 {
  * 4. Blue Nutshell
  */
 .main-bg {
-  background: #e74c3c;
+  background: #00ab66;
 }
 .main-color {
-  color: #e74c3c;
+  color: #00ab66;
 }
 .white-color {
   color: #fff;
@@ -318,7 +318,7 @@ h6 {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: rgba(231, 76, 60, 0.9);
+  background: rgba(0, 171, 102, 0.9);
   text-transform: uppercase;
 }
 .mobilenav li {
@@ -416,7 +416,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(231, 76, 60, 0.9);
+  background: rgba(0, 171, 102, 0.9);
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
@@ -496,7 +496,7 @@ h6 {
 }
 .portfolio-wrapper .button:hover,
 .button:active {
-  color: #e74c3c;
+  color: #00ab66;
 }
 .portfolio-wrapper .button:hover:after {
   height: 260%;
@@ -548,7 +548,7 @@ header .active {
 .carousel-indicators .active {
   width: 40px;
   height: 5px;
-  background: #e74c3c;
+  background: #00ab66;
 }
 .carousel-caption {
   top: 25%;
@@ -613,7 +613,7 @@ header .logo-container {
   box-shadow: none;
 }
 .panel-default > .panel-heading {
-  background: #e74c3c;
+  background: #00ab66;
   color: #f3eff0;
   cursor: pointer;
   border-radius: 3px;
@@ -669,7 +669,7 @@ header .logo-container {
 }
 .case-study .overlay:hover {
   width: 100%;
-  background: rgba(231, 76, 60, 0.9);
+  background: rgba(0, 171, 102, 0.9);
 }
 .case-study h3 {
   text-shadow: 1px 1px 1px #444;
@@ -692,7 +692,7 @@ header .logo-container {
   border-radius: 4px;
 }
 .why-choose-us .icon i {
-  color: #e74c3c;
+  color: #00ab66;
 }
 .why-choose-us h4 {
   margin: 15px 0 20px;
@@ -707,7 +707,7 @@ header .logo-container {
   cursor: pointer;
 }
 .why-choose-us .service:hover > .icon {
-  background: #e74c3c;
+  background: #00ab66;
   color: #fff;
   transition: all .85s;
 }
@@ -734,7 +734,7 @@ header .logo-container {
   position: relative;
 }
 .skill-bar li span {
-  background: #e74c3c;
+  background: #00ab66;
 }
 .our-skills .skill-people img {
   height: 300px;
@@ -789,15 +789,15 @@ header .logo-container {
   margin-right: 100px;
 }
 .processes .process-bar.right {
-  border: 3px solid #e74c3c;
+  border: 3px solid #00ab66;
 }
 .processes .lines {
   height: 55px;
   width: 110px;
   margin: -3px auto -3px;
-  border-right: 3px solid #e74c3c;
-  border-left: 3px solid #e74c3c;
-  border-bottom: 3px solid #e74c3c;
+  border-right: 3px solid #00ab66;
+  border-left: 3px solid #00ab66;
+  border-bottom: 3px solid #00ab66;
 }
 /* ========================================================================
   2.8 Component: Our Team
@@ -806,7 +806,7 @@ header .logo-container {
   background: #eee;
 }
 .our-team .team-member {
-  border: 1px solid #e74c3c;
+  border: 1px solid #00ab66;
   width: 220px;
   height: 300px;
   overflow: hidden;
@@ -828,14 +828,14 @@ header .logo-container {
 .our-team .team-overlay .info {
   height: 240px;
   padding: 100px 20px 20px 20px;
-  background: rgba(231, 76, 60, 0.9);
+  background: rgba(0, 171, 102, 0.9);
 }
 .our-team .team-overlay .learn-more {
   height: 60px;
   line-height: 60px;
   width: 100%;
   text-align: center;
-  background: #c0392b;
+  background: #27ae60;
   position: relative;
   cursor: pointer;
 }
@@ -890,7 +890,7 @@ header .logo-container {
 }
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: #e74c3c;
+  background: #00ab66;
 }
 /* ========================================================================
   2.10 Component: Portfolio
@@ -917,7 +917,7 @@ header .logo-container {
   color: #9e9e9e;
 }
 .portfolio .filters .active {
-  color: #e74c3c;
+  color: #00ab66;
   text-decoration: none;
 }
 .portfolio .portfolio-item {
@@ -987,7 +987,7 @@ header .logo-container {
   display: inline-block;
 }
 .promote .deep {
-  background: #c0392b;
+  background: #27ae60;
 }
 /* ========================================================================
   2.12 Component: We are hiring
@@ -1067,7 +1067,7 @@ header .logo-container {
   height: 80px;
   width: 80px;
   margin: 0 auto;
-  background: #e74c3c;
+  background: #00ab66;
   border-radius: 50%;
   line-height: 60px;
   margin-top: -60px;
@@ -1124,7 +1124,7 @@ header .logo-container {
 }
 .modal input:focus,
 .modal textarea:focus {
-  border-color: #e74c3c;
+  border-color: #00ab66;
   box-shadow: none;
 }
 .modal textarea {
@@ -1220,7 +1220,7 @@ header .logo-container {
   right: 20px;
   bottom: 20px;
   z-index: 100;
-  background: #e74c3c;
+  background: #00ab66;
   cursor: pointer;
   width: 60px;
   height: 60px;
